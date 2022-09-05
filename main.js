@@ -50,8 +50,11 @@ story.addEventListener("click",()=>{
     storyPop.className="story-pop"
     body.appendChild(storyPop)
     // set and add frame to storyPop
-    let videoPop=document.createElement("iframe")
-    videoPop.src="videos/Google_ Project Fi - Design Reel from oddfellows on Vimeo.html"
+    let videoPop=document.createElement("video")
+    videoPop.src="videos/story.mp4";
+    videoPop.setAttribute("controls","controls")
+    videoPop.setAttribute("autoplay","autoplay")
+    videoPop.setAttribute("loop","loop")
     storyPop.appendChild(videoPop)
     body.style.overflow="hidden"
     // close storyPop
