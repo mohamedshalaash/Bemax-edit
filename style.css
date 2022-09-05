@@ -1052,9 +1052,8 @@ footer h3{
     z-index: 5;
 }
 /* 2- storyPop ---------------------------------------------- */
-.story-pop iframe{
-    width: 70%;
-    height: 60%;
+.story-pop video{
+    width: 50%;
     border: none;
     z-index: 15;
 }
@@ -1065,7 +1064,9 @@ footer h3{
         height: auto;
         width: 80%;
     }
-    .story-pop iframe{
+}
+@media(max-width:900px){
+    .story-pop video{
         width: 90%;
     }
 }
