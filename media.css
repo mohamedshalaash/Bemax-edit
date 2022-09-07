@@ -1,5 +1,9 @@
 
 /* ================== START MEDIA QUERY >=  RESPONSIVE   ================== */
+@media(max-width:880px){
+    .about-box section{
+        width: 100%;
+    }
 @media(max-width:865px){
     .blog-box section{
         width: 100%;
